@@ -1,0 +1,51 @@
+body{
+    background-color: #F37CE6;
+
+}
+#divTitulo{
+    font-size: 30px;
+    text-align: center;
+    font-weight: bold;
+    font-family: 'Courier New', Courier;
+    /*background-color:aliceblue;*/
+    margin-bottom: 30px;
+}
+
+#divPrimero, #divSegundo, #divTercero{
+    /*background-color:red;
+    border: 2px, solid, black; */ 
+    width: 98%;
+    height: 40%;
+    padding-left: 30px;
+    padding-right: 10px;
+    display: flex;
+    margin-bottom: 4px;    
+   
+}
+select{
+    width: 900px;
+    height: 60px;
+    padding: 7px;
+    font-size: 20px;
+
+
+}
+img{
+    width: 500px;
+    height: 210px;
+    margin-left: 200px;
+    flex-direction: column;
+}
+#divBoton{
+    width: 300px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 15px;
+}
+#dto{
+    margin-top: 10px;
+    margin-left: 35px; 
+}
+label{
+    font-size: 20px;
+}
